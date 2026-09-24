@@ -64,7 +64,7 @@ python3 -m aquasignal all --offline
 python3 -m unittest discover -s tests
 ```
 
-Output lands in `site/index.html`. The committed `site/` and `data/`
+Output lands in `docs/index.html`. The committed `docs/` and `data/`
 directories contain a real build from 2026-09-24 so the repo is browsable
 without running anything.
 

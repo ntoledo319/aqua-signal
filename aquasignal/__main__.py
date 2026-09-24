@@ -13,7 +13,7 @@ from .sites import SITES
 
 ROOT = Path(__file__).resolve().parent.parent
 CACHE_DIR = ROOT / "data"
-OUT_DIR = ROOT / "site"
+OUT_DIR = ROOT / "docs"
 
 
 def cmd_fetch(days: int, offline: bool) -> dict:
