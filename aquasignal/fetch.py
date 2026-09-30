@@ -11,6 +11,7 @@ Public API:
 
 from __future__ import annotations
 
+import http.client
 import json
 import time
 import urllib.error
@@ -43,7 +44,8 @@ class FetchSession:
                 )
                 with urllib.request.urlopen(req, timeout=self.timeout) as resp:
                     return json.loads(resp.read().decode("utf-8"))
-            except (urllib.error.URLError, TimeoutError, json.JSONDecodeError) as exc:
+            except (urllib.error.URLError, TimeoutError, json.JSONDecodeError,
+                    http.client.HTTPException) as exc:
                 last_err = exc
                 if attempt < self.retries:
                     time.sleep(self.backoff * attempt)
