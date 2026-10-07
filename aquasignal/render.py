@@ -244,6 +244,7 @@ def render_dashboard(assessments: list[dict], generated_at: str | None = None,
     aqua-signal &middot; built for the OneAquaHealth IEEE Global Hackathon
     (Data-to-Insight track) &middot; source:
     <a href="https://github.com/ntoledo319/aqua-signal">github.com/ntoledo319/aqua-signal</a>
+    &middot; <a href="https://youtu.be/NrXxx9hjbkA">3-minute demo video</a>
     &middot; data &copy; USGS (public domain)
   </footer>
 </div>
