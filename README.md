@@ -67,8 +67,8 @@ python3 -m unittest discover -s tests
 ```
 
 Output lands in `docs/index.html`. The committed `docs/` and `data/`
-directories contain a real build from 2026-09-24 so the repo is browsable
-without running anything.
+directories contain a real checked-in build, with the generation timestamp on
+the dashboard, so the repo is browsable without running anything.
 
 ## Layout
 
