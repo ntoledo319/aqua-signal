@@ -8,6 +8,8 @@ United States: *is this water getting better or worse?*
 
 Built for the **OneAquaHealth IEEE Global Hackathon** (Data-to-Insight track).
 
+**Live dashboard:** <https://ntoledo319.github.io/aqua-signal/>
+
 ![status](https://img.shields.io/badge/tests-43%20passing-brightgreen)
 ![deps](https://img.shields.io/badge/runtime%20dependencies-zero-blue)
 
